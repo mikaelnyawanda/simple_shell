@@ -3,6 +3,7 @@ Simple Shell Project Description
 This is a command-line interpreter that allows users to interact with the operating system by typing commands. The shell processes user input, executes the corresponding commands, and returns the output to the user. In a simple shell project, you typically implement a basic version of a Unix shell using the C programming language.
 
 Key Features:
+
 Command Execution: The shell reads user input, interprets it, and executes the corresponding command using system calls like execve.
 Built-in Commands: Implement some basic commands like cd, exit, and pwd within the shell.
 Environment Variables: The shell can access and manipulate environment variables.
